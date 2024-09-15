@@ -109,10 +109,10 @@ public class CenterstageTeleOp16523 extends LinearOpMode {
                 rightBackPower  /= max;
                 armPower /= max;
             }
-            robot.leftFrontDrive.setPower(leftFrontPower*0.65);
-            robot.leftBackDrive.setPower(leftBackPower*0.65);
-            robot.rightFrontDrive.setPower(rightFrontPower*0.65);
-            robot.rightBackDrive.setPower(rightBackPower*0.65);
+            robot.leftFrontDrive.setPower(leftFrontPower*0.5);
+            robot.leftBackDrive.setPower(leftBackPower*0.5);
+            robot.rightFrontDrive.setPower(rightFrontPower*0.5);
+            robot.rightBackDrive.setPower(rightBackPower*0.5);
 
             // This is test code:
             //
